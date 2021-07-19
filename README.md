@@ -21,6 +21,8 @@ cd code
 
 git clone https://github.com/williamolyolson/bme680monitor
 
+chmod +x /home/pi/code/bme680monitor/camera.sh
+
 sudo su - root
 
 crontab -e
