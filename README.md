@@ -12,9 +12,7 @@ sudo apt-get install git -y
 
 sudo pip3 install --upgrade setuptools
 
-sudo pip3 install board busio
-
-sudo pip3 install adafruit-circuitpython-bme680
+sudo pip3 install board busio adafruit-circuitpython-bme680
 
 mkdir ~/code
 
