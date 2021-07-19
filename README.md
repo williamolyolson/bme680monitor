@@ -9,11 +9,13 @@ reboot
 
 sudo apt-get install python3-dev python3-pip apache2 git -y
 
-sudo pip3 install --upgrade setuptools
+#sudo pip3 install --upgrade setuptools
 
-sudo pip3 install board 
+#sudo pip3 install board 
 
-sudo pip3 install adafruit-circuitpython-bme680
+#sudo pip3 install adafruit-circuitpython-bme680
+
+sudo pip3 install board adafruit-circuitpython-bme680
 
 mkdir ~/code
 
@@ -24,6 +26,8 @@ git clone https://github.com/williamolyolson/bme680monitor
 chmod +x /home/pi/code/bme680monitor/camera.sh
 
 sudo su - root
+
+mkdir /var/www/html/images
 
 crontab -e
 
