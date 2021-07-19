@@ -21,3 +21,12 @@ mkdir ~/code
 cd code
 
 git clone https://github.com/williamolyolson/bme680monitor
+
+sudo crontab -e
+
+* * * * * /usr/bin/python3 /home/pi/code/bme680monitor/bme680.py
+* * * * * (sleep 10 ; /usr/bin/python3 /home/pi/code/bme680monitor/bme680.py)
+* * * * * (sleep 20 ; /usr/bin/python3 /home/pi/code/bme680monitor/bme680.py)
+* * * * * (sleep 30 ; /usr/bin/python3 /home/pi/code/bme680monitor/bme680.py)
+* * * * * (sleep 40 ; /usr/bin/python3 /home/pi/code/bme680monitor/bme680.py)
+* * * * * (sleep 50 ; /usr/bin/python3 /home/pi/code/bme680monitor/bme680.py)
