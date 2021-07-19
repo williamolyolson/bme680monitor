@@ -22,6 +22,7 @@ sudo su - root
 
 crontab -e
 
+* * * * * /home/pi/code/bme680monitor/camera.sh
 * * * * * /usr/bin/python3 /home/pi/code/bme680monitor/bme680.py
 * * * * * (sleep 10 ; /usr/bin/python3 /home/pi/code/bme680monitor/bme680.py)
 * * * * * (sleep 20 ; /usr/bin/python3 /home/pi/code/bme680monitor/bme680.py)
