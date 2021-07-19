@@ -9,12 +9,6 @@ reboot
 
 sudo apt-get install python3-dev python3-pip apache2 git vim -y
 
-#sudo pip3 install --upgrade setuptools
-
-#sudo pip3 install board 
-
-#sudo pip3 install adafruit-circuitpython-bme680
-
 sudo pip3 install board adafruit-circuitpython-bme680
 
 mkdir ~/code
