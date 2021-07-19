@@ -7,7 +7,7 @@ sudo apt-get update -y
 
 reboot
 
-sudo apt-get install python3-dev python3-pip apache2 git -y
+sudo apt-get install python3-dev python3-pip apache2 git vim -y
 
 #sudo pip3 install --upgrade setuptools
 
