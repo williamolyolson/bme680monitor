@@ -1,5 +1,8 @@
 # bme680monitor
 
+sudo raspi-config
+  (Set SSH ON, I2C ON, Camera ON, configure WiFi)
+
 sudo apt-get update -y
 
 reboot
